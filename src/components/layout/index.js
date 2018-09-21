@@ -13,6 +13,7 @@ const Layout = ({ children }) => (
         site {
           siteMetadata {
             title
+            themeColor
           }
         }
       }
@@ -22,13 +23,13 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'description', content: 'Trablahe na EmCasa' },
+            { name: 'keywords', content: 'emcasa, startup, real estate tech' },
           ]}
         >
           <html lang="en" />
         </Helmet>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header siteTitle={data.site.siteMetadata.title} themeColor={data.site.siteMetadata.themeColor} />
         <div
           style={{
             margin: '0 auto',

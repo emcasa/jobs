@@ -1,15 +1,35 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import {graphql} from 'gatsby'
 
 import Layout from '../components/layout'
+import Job from '../components/job';
 
-const IndexPage = () => (
-  <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+const IndexPage = ({data}) => {
+  const {allMarkdownRemark: {edges}} = data;
+  return (
+    <Layout>
+      <h1>Oportunidades</h1>
+      <div className="job-list">
+        {edges.map(({node}, index) => <Job key={index} {...node.frontmatter} />)}
+      </div>
+    </Layout>
+  );
+};
 
 export default IndexPage
+
+export const pageQuery = graphql`
+  query {
+    allMarkdownRemark {
+      edges {
+        node {
+          frontmatter {
+            title
+            location
+            area
+          }
+        }
+      }
+    }
+  }
+`

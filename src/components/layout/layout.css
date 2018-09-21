@@ -1,0 +1,52 @@
+@font-face {
+    font-family: FaktProSoft;
+    src: url("https://marvelapp.com/static/assets/webfonts/fakt-soft/FaktSoftPro-Blond.eot");
+    src: url("https://marvelapp.com/static/assets/webfonts/fakt-soft/FaktSoftPro-Blond.eot?#iefix") format("embedded-opentype"),
+         url("https://marvelapp.com/static/assets/webfonts/fakt-soft/FaktSoftPro-Blond.woff") format("woff"),
+         url("https://marvelapp.com/static/assets/webfonts/fakt-soft/FaktSoftPro-Blond.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: FaktProSoft;
+    src: url("https://marvelapp.com/static/assets/webfonts/fakt-soft/FaktSoftPro-Normal.eot");
+    src: url("https://marvelapp.com/static/assets/webfonts/fakt-soft/FaktSoftPro-Normal.eot?#iefix") format("embedded-opentype"),
+         url("https://marvelapp.com/static/assets/webfonts/fakt-soft/FaktSoftPro-Normal.woff") format("woff"),
+         url("https://marvelapp.com/static/assets/webfonts/fakt-soft/FaktSoftPro-Normal.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: FaktProSoft;
+    src: url("https://marvelapp.com/static/assets/webfonts/fakt-soft/FaktSoftPro-Medium.eot");
+    src: url("https://marvelapp.com/static/assets/webfonts/fakt-soft/FaktSoftPro-Medium.eot?#iefix") format("embedded-opentype"),
+         url("https://marvelapp.com/static/assets/webfonts/fakt-soft/FaktSoftPro-Medium.woff") format("woff"),
+         url("https://marvelapp.com/static/assets/webfonts/fakt-soft/FaktSoftPro-Medium.ttf") format("truetype");
+    font-weight: 500;
+}
+
+html, body {
+    font-family: FaktProSoft, Helvetica Neue, helvetica, arial, sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-image: url(../../images/team.jpg);
+    background-color: #F50057;
+    background-size: cover;
+    background-position: center center;
+    height: 340px;
+}
+
+.job-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.job {
+    min-width: 300px;
+    margin-bottom: 30px;
+}
