@@ -11,8 +11,8 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("workbox-v3.5.0/workbox-sw.js");
-workbox.setConfig({modulePathPrefix: "workbox-v3.5.0"});
+importScripts("workbox-v3.6.1/workbox-sw.js");
+workbox.setConfig({modulePathPrefix: "workbox-v3.6.1"});
 
 workbox.core.setCacheNameDetails({prefix: "gatsby-plugin-offline"});
 
@@ -26,40 +26,40 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-0f0f223b3f5bc04b7296.js"
+    "url": "webpack-runtime-a3998fa036f92d7e3531.js"
   },
   {
-    "url": "app-f3facf944cf7dafbdcbf.js"
+    "url": "app-a8cc6667b0eb8240d98c.js"
   },
   {
-    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-8b39cf320710777c95f1.js"
+    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-c9c937b9491619a6493b.js"
   },
   {
     "url": "index.html",
-    "revision": "31e99bc86e92e5fc8c51961d3e73f122"
+    "revision": "c3ffa262887f189134ae6e3138698aaa"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "3c6ddfb90f5ea91cc4a989874eebf4c1"
+    "revision": "177d1fb9e001371000d4ce1b396de4be"
   },
   {
-    "url": "component---src-pages-index-js.920d17785a412ad5195d.css"
+    "url": "component---src-pages-index-js.2efee176e2e344f7e3e8.css"
   },
   {
-    "url": "component---src-pages-index-js-846301b6c2f42a3ca347.js"
+    "url": "component---src-pages-index-js-ba59ee4388a97495c3b5.js"
   },
   {
-    "url": "0-0225fa044100f8d28639.js"
+    "url": "0-f4161d1a7c229245cc4f.js"
   },
   {
-    "url": "static/d/173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E.json",
-    "revision": "c2508676a2f33ea9f1f0bf472997f9a0"
+    "url": "static/d/113/path---index-6a9-LloHmI7WtfuyVqwmCO4pqJQafg.json",
+    "revision": "e9c8ee2e0178eb38fa48d7c5113ae7b0"
   },
   {
-    "url": "component---src-pages-404-js.920d17785a412ad5195d.css"
+    "url": "component---src-pages-404-js.2efee176e2e344f7e3e8.css"
   },
   {
-    "url": "component---src-pages-404-js-5489bb486c2db8c5082b.js"
+    "url": "component---src-pages-404-js-0097c6176490ddf6cf30.js"
   },
   {
     "url": "static/d/164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E.json",
@@ -71,7 +71,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "55a9292126f8836e91e5d40b0a8cb54f"
+    "revision": "9c15da1704f7c20392d28d7cf532daed"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
