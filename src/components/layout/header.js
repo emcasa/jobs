@@ -11,20 +11,17 @@ const Header = () => (
       }}
     >
       <Logo />
-      <div style={{color: '#FFF'}}>
+      <div className="content">
         <h2>Trabalhe na EmCasa</h2>
-        <p>Estamos revolucionando o mercado de real estate no Brasil.</p>
+        <p>Estamos revolucionando o mercado de real estate no Brasil. Temos oportunidades para trabalho remoto ou nas nossas sedes no RJ e SP. Conheça mais:</p>
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=1f6a_1orGzM1">O que é a EmCasa?</a></li>
+          <li><a href="https://www.youtube.com/watch?v=vv2L-XVde_0&t=485s">EmCasa na IstoÉ dinheiro</a></li>
+          <li><a href="https://emcasa.com">Visite nosso produto</a></li>
+        </ul>
       </div>
     </div>
   </div>
 )
 
 export default Header
-  /*
-<div>
-        <ul>
-          <li>https://www.youtube.com/watch?v=1f6a_1orGzM</li>
-          <li>https://youtu.be/vv2L-XVde_0?t=474</li>
-        </ul>
-      </div>
-      */

@@ -32,6 +32,10 @@ html, body {
     margin: 0;
 }
 
+a {
+    color: #FFF;
+}
+
 .header {
     background-image: url(../../images/team.jpg);
     background-color: #F50057;
@@ -40,13 +44,42 @@ html, body {
     height: 340px;
 }
 
+.header .content {
+    width: 400px;
+    color: #FFF;
+}
+
 .job-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .job {
-    min-width: 300px;
-    margin-bottom: 30px;
+    text-align: center;
+    border-bottom: #F50057 2px solid;
+    width: 32%;
+    /*min-width: 230px;*/
+    /*margin-right: 30px;*/
+    padding-top: 30px;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+
+.job:hover{
+    background-color: #F50057;
+    color: #FFF;
+}
+
+@media (max-width: 800px) {
+    .job {
+        width: 48%;
+    }
+}
+
+@media (max-width: 500px) {
+    .job {
+        width: 100%;
+    }
 }

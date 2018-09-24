@@ -8,7 +8,6 @@ const IndexPage = ({data}) => {
   const {allMarkdownRemark: {edges}} = data;
   return (
     <Layout>
-      <h1>Oportunidades</h1>
       <div className="job-list">
         {edges.map(({node}, index) => <Job key={index} {...node.frontmatter} />)}
       </div>
@@ -20,7 +19,9 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark {
+    allMarkdownRemark(
+      sort: {fields: [frontmatter___location], order: ASC}
+    ){
       edges {
         node {
           frontmatter {
