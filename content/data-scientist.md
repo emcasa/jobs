@@ -11,8 +11,6 @@ A EmCasa está buscando o seu primeiro, de muitos, cientista de dados \o/ para n
 
 ### Responsabilidades
 * Construir classificadores usando técnicas de machine learning
-* Data Mining
-* Extensão dos dados usados pela EmCasa com fontes externas
 * Processar, limpar e garantir integridade de dados usados para análise
 * Realizar análises ad-hoc e apresentar os resultados claramente
 
