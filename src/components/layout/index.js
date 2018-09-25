@@ -26,7 +26,8 @@ const Layout = ({ children, internal, title }) => (
           meta={[
             { name: 'description', content: 'A EmCasa nasceu para transformar a experiência de comprar e vender um imóvel no Brasil. Nós usamos tecnologia, inteligência de dados e um modelo de negócio inovador para redefinir o mercado brasileiro de Real Estate em favor dos compradores e vendedores.' },
             { name: 'keywords', content: 'emcasa, startup, real estate tech' },
-            { name: 'og:image', content: opengraphImage }
+            { name: 'og:image', content: opengraphImage },
+            { name: 'image', property: 'og:image', content: opengraphImage }
           ]}
         >
           <html lang="en" />
