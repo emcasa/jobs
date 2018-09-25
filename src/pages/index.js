@@ -43,6 +43,7 @@ export const pageQuery = graphql`
             title
             location
             area
+            path
           }
         }
       }

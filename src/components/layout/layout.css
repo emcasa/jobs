@@ -44,6 +44,26 @@ a {
     margin-bottom: 50px;
 }
 
+.header.collapsed {
+    background-image: none;
+    margin-bottom: 10px;
+}
+
+.header.collapsed h2{
+    color: #FFF;
+    padding: 0;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 8px;
+}
+
+.header.collapsed .title{
+    display: flex;
+}
+
+
+
 .header h1 {
     font-weight: 500;
 }
@@ -94,6 +114,9 @@ a {
 }
 
 .job {
+    color: #000;
+    text-decoration: none;
+    display: block;
     text-align: center;
     width: 32%;
     padding-top: 30px;

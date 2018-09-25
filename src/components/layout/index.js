@@ -6,7 +6,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Header from './header'
 import './layout.css'
 
-const Layout = ({ children }) => (
+const Layout = ({ children, internal }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -29,7 +29,10 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
-        <Header siteTitle={data.site.siteMetadata.title} themeColor={data.site.siteMetadata.themeColor} />
+        <Header
+          collapsed={internal}
+          siteTitle={data.site.siteMetadata.title}
+          themeColor={data.site.siteMetadata.themeColor} />
         <div
           style={{
             margin: '0 auto',
@@ -41,7 +44,7 @@ const Layout = ({ children }) => (
           {children}
 
         </div>
-        <div className="footer"></div>
+        <div className="footer" />
       </>
     )}
   />
@@ -49,6 +52,7 @@ const Layout = ({ children }) => (
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  internal: PropTypes.bool
 }
 
 export default Layout

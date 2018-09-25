@@ -1,0 +1,30 @@
+.job-template p{
+    font-weight: 300;
+}
+
+.job-template .job-title {
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.job-template .job-area {
+    font-weight: 300;
+    margin-top: 0;
+}
+
+.job-template .job-apply {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.job-template .job-apply a {
+    border: #F50057 1px solid;
+    padding: 10px;
+    color: #F50057;
+    text-decoration: none;
+}
+
+.job-template .job-apply a:hover {
+    background-color: #F50057;
+    color: #FFF;
+}
