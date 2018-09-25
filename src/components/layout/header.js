@@ -25,9 +25,9 @@ const Header = ({collapsed}) => (
         <h1>Trabalhe na EmCasa</h1>
         <p>Estamos revolucionando o mercado de real estate no Brasil. Temos oportunidades para trabalho remoto ou nas nossas sedes no RJ e SP. Conheça mais:</p>
         <ul>
-          <li><a href="https://www.youtube.com/watch?v=1f6a_1orGzM1">O que é a EmCasa?</a></li>
-          <li><a href="https://www.youtube.com/watch?v=vv2L-XVde_0&t=485s">EmCasa na IstoÉ dinheiro</a></li>
-          <li><a href="https://emcasa.com">Visite nosso produto</a></li>
+          <li><a href="https://www.youtube.com/watch?v=1f6a_1orGzM1" target="_blank">O que é a EmCasa?</a></li>
+          <li><a href="https://www.youtube.com/watch?v=vv2L-XVde_0&t=485s" target="_blank">EmCasa na IstoÉ dinheiro</a></li>
+          <li><a href="https://www.emcasa.com" target="_blank">Visite nosso produto</a></li>
         </ul>
       </div>}
     </div>

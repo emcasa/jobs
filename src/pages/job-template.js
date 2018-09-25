@@ -35,7 +35,7 @@ export default function JobTemplate({
           dangerouslySetInnerHTML={{ __html: html }}
         />
         <div className="job-apply">
-          <a href="#">Quero me candidatar</a>
+          <a href={frontmatter.form} target="_blank">Quero me candidatar</a>
         </div>
       </div>
     </Layout>
@@ -51,6 +51,7 @@ export const pageQuery = graphql`
         title
         area
         location
+        form
       }
     }
   }
