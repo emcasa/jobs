@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
-import opengraphImage from '../../images/opengraph.png';
+import opengraphImage from '../../images/opengraph.jpg';
 import './layout.css'
 
 const Layout = ({ children, internal, title }) => (
