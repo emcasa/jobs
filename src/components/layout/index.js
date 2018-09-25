@@ -4,8 +4,8 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
-import opengraphImageHigh from '../../images/opengraph-high.png';
-import opengraphImageLow from '../../images/opengraph-low.png';
+import opengraphImageHigh from '../../images/opengraph-high.png'
+import opengraphImageLow from '../../images/opengraph-low.png'
 import './layout.css'
 
 const Layout = ({ children, internal, title }) => (
@@ -29,6 +29,8 @@ const Layout = ({ children, internal, title }) => (
             { name: 'keywords', content: 'emcasa, startup, real estate tech' },
             { name: 'og:image', content: opengraphImageHigh },
             { name: 'og:image', content: opengraphImageLow },
+            { name: 'image', property: 'og:image', content: opengraphImageHigh },
+            { name: 'image', property: 'og:image', content: opengraphImageLow }
           ]}
         >
           <html lang="en" />
