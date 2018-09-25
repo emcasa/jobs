@@ -10,9 +10,11 @@ const Header = () => (
         padding: '1.45rem 1.0875rem'
       }}
     >
-      <Logo />
+      <div>
+        <Logo />
+      </div>
       <div className="content">
-        <h2>Trabalhe na EmCasa</h2>
+        <h1>Trabalhe na EmCasa</h1>
         <p>Estamos revolucionando o mercado de real estate no Brasil. Temos oportunidades para trabalho remoto ou nas nossas sedes no RJ e SP. Conheça mais:</p>
         <ul>
           <li><a href="https://www.youtube.com/watch?v=1f6a_1orGzM1">O que é a EmCasa?</a></li>

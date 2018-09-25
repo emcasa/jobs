@@ -39,7 +39,9 @@ const Layout = ({ children }) => (
           }}
         >
           {children}
+
         </div>
+        <div className="footer"></div>
       </>
     )}
   />
