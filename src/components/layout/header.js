@@ -4,13 +4,7 @@ import Logo from './logo'
 
 const Header = ({collapsed}) => (
   <div className={collapsed ? 'header collapsed' : 'header'}>
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem'
-      }}
-    >
+    <div className="header-content">
       <div className="title">
         {!collapsed && <Logo />}
         {collapsed && (

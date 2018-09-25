@@ -17,11 +17,11 @@ const IndexPage = ({data}) => {
   return (
     <Layout>
       <div>
-        {Object.keys(jobsByArea).map(area => (
-          <div className="job-area">
+        {Object.keys(jobsByArea).map((area, index) => (
+          <div key={`area-${index}`} className="job-area">
             <h2>{area}</h2>
             <div className="job-list">
-              {jobsByArea[area].map(job => <Job {...job.frontmatter} />)}
+              {jobsByArea[area].map((job, j) => <Job key={`area-${index}-job-${j}`}{...job.frontmatter} />)}
             </div>
           </div>
         ))}
