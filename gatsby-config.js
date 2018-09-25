@@ -6,6 +6,7 @@ module.exports = {
     themeColor: THEME_COLOR
   },
   plugins: [
+    'gatsby-plugin-remove-serviceworker',
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
