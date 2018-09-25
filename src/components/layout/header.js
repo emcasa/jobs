@@ -12,8 +12,13 @@ const Header = ({collapsed}) => (
       }}
     >
       <div className="title">
-        <Logo />
-        {collapsed && <h2>Trabalhe na EmCasa</h2>}
+        {!collapsed && <Logo />}
+        {collapsed && (
+          <a href="/">
+            <Logo />
+            <h2>Trabalhe na EmCasa</h2>
+          </a>
+        )}
       </div>
       {!collapsed &&
       <div className="content">
