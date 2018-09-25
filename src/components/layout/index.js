@@ -5,7 +5,6 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
 import opengraphImageHigh from '../../images/opengraph-high.png';
-import opengraphImage from '../../images/opengraph.png';
 import opengraphImageLow from '../../images/opengraph-low.png';
 import './layout.css'
 
@@ -30,7 +29,6 @@ const Layout = ({ children, internal, title }) => (
             { name: 'keywords', content: 'emcasa, startup, real estate tech' },
             { name: 'og:image', content: opengraphImageHigh },
             { name: 'og:image', content: opengraphImageLow },
-            { name: 'image', property: 'og:image', content: opengraphImage }
           ]}
         >
           <html lang="en" />
