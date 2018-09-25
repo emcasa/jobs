@@ -11,7 +11,7 @@ export default function JobTemplate({
   }
 
   const { frontmatter, html } = markdownRemark
-  return (<Layout internal={true}>
+  return (<Layout internal={true} title={`EmCasa | ${frontmatter.title} (${frontmatter.location})`}>
       <div className="job-template">
         <div className="job-header">
           <h1 className="job-title">{frontmatter.title}</h1>

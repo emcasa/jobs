@@ -4,9 +4,10 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
+import opengraphImage from '../../images/opengraph.png';
 import './layout.css'
 
-const Layout = ({ children, internal }) => (
+const Layout = ({ children, internal, title }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -21,10 +22,11 @@ const Layout = ({ children, internal }) => (
     render={data => (
       <>
         <Helmet
-          title={data.site.siteMetadata.title}
+          title={title ||data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Trablahe na EmCasa' },
+            { name: 'description', content: 'A EmCasa nasceu para transformar a experiência de comprar e vender um imóvel no Brasil. Nós usamos tecnologia, inteligência de dados e um modelo de negócio inovador para redefinir o mercado brasileiro de Real Estate em favor dos compradores e vendedores.' },
             { name: 'keywords', content: 'emcasa, startup, real estate tech' },
+            { name: 'og:image', content: opengraphImage }
           ]}
         >
           <html lang="en" />
@@ -52,7 +54,8 @@ const Layout = ({ children, internal }) => (
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-  internal: PropTypes.bool
+  internal: PropTypes.bool,
+  title: PropTypes.string
 }
 
 export default Layout

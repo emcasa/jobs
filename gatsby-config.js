@@ -2,7 +2,7 @@ const THEME_COLOR = '#F50057';
 
 module.exports = {
   siteMetadata: {
-    title: 'EmCasa | Jobs',
+    title: 'Trabalhe na EmCasa',
     themeColor: THEME_COLOR
   },
   plugins: [
