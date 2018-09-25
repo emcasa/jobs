@@ -6,6 +6,10 @@ export default function JobTemplate({
   data
 }) {
   const { markdownRemark } = data
+  if ( !markdownRemark ) {
+    return null
+  }
+
   const { frontmatter, html } = markdownRemark
   return (<Layout internal={true}>
       <div className="job-template">
