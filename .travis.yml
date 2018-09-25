@@ -9,5 +9,6 @@ deploy:
   github-token: $GITHUB_TOKEN
   keep-history: true
   target-branch: gh-pages
+  fqdn: jobs.emcasa.com
   on:
     branch: master
