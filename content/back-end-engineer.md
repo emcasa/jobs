@@ -31,5 +31,5 @@ desde a arquitetura até a manutenção.
 * Experiência com ELK (ElasticSearch + Logstash + Kibana);
 * Experiência com ferramentas de monitoramento;
 * Experiência com data-pipelines e/ou aplicações com machine learning;
+* Experiência com infra-estrutura na AWS (ou similar);
 * Experiência em startups e times de produto;
-
