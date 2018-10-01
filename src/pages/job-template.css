@@ -24,6 +24,10 @@
     text-decoration: none;
 }
 
+.job-template .job-content a{
+    color: #F50057;
+}
+
 .job-template .job-apply a:hover {
     background-color: #F50057;
     color: #FFF;
