@@ -15,13 +15,13 @@ Além das aplicações, você também será responsável por manter em conjunto 
 desde a arquitetura até a manutenção.
 
 
-### Requisitos
+### Responsabilidades
 
-* Desenvolver aplicações com Elixir & Pheonix;
+* Conhecimento em Elixir e/ou linguagens funcionais;
 * Conhecer PostgreSQL (ou similar);
 * Experiência com webapps & seu foundation: HTTP, TCP/IP, segurança, browser e outros clientes;
-* Escrever testes unitários & end-to-end da aplicação;
-* Manter a arquitetura da aplicação - ser obcecado por reutilização de código e performance;
+* Conhecer testes unitários & end-to-end da aplicação;
+* Ter conhecimento de boas práticas de arquitetura de aplicação e organização de código;
 * Ter comprometimento e ownership em organizar o seu próprio tempo e entregas, não fazemos micromanagement;
 * Acreditar em decisões orientadas a dados - e ser responsável por ajudar a coletar, planejar e mantê-los;
 
@@ -29,7 +29,7 @@ desde a arquitetura até a manutenção.
 ### Diferenciais
 
 * Experiência com ELK (ElasticSearch + Logstash + Kibana);
-* Experiência com Graphite;
+* Experiência com ferramentas de monitoramento;
 * Experiência com data-pipelines e/ou aplicações com machine learning;
 * Experiência em startups e times de produto;
 
