@@ -8,7 +8,7 @@ form: "https://docs.google.com/forms/d/1Y5DyMBbK61mO_5hNaSwVLe6eE5sM5HsKK_46ouEt
 
 ### Responsabilidades
 Como Back-End engineer você será responsável pelo desenvolvimento das nossas APIs e serviços internos
-que atendem as aplicações dos nossos clientes e times internos. 
+que atendem as aplicações dos nossos clientes e times internos.
 
 Nosso stack é composto por Elixir, Pheonix, Absinthe (GraphQL), PostgreSQL & ELK.
 Além das aplicações, você também será responsável por manter em conjunto com o time nossa infra-estrutura,
@@ -33,3 +33,5 @@ desde a arquitetura até a manutenção.
 * Experiência com data-pipelines e/ou aplicações com machine learning;
 * Experiência com infra-estrutura na AWS (ou similar);
 * Experiência em startups e times de produto;
+
+Somos open-source! Cheque nosso repositório [aqui](https://github.com/emcasa)
