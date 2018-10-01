@@ -34,3 +34,5 @@ manter em conjunto com o time nosso [design system](https://ui.emcasa.com).
 * Experiência com PWA;
 * Experiência com React Native;
 * Experiência em startups e times de produto;
+
+Somos open-source! Cheque nosso repositório [aqui](https://github.com/emcasa)

@@ -31,3 +31,5 @@ Aplicar técnicas de data mining, análises estatísticas e criar sistemas de pr
 ### Diferenciais
 * Experiência com frameworks processamento de dados como Druid, Hive, Presto, ClickHouse, Spar, etc
 * Conhecer técnicas de machine learning e algoritmos como, k-NN, Naive Bayes, SVM, Decision Forests, XGBoost, etc...
+
+Somos open-source! Cheque nosso repositório [aqui](https://github.com/emcasa)
