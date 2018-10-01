@@ -33,3 +33,4 @@ desde a arquitetura até a manutenção.
 * Experiência com data-pipelines e/ou aplicações com machine learning;
 * Experiência em startups e times de produto;
 
+Somos open-source! Cheque nosso repositório [aqui](https://github.com/emcasa)
