@@ -6,7 +6,7 @@ area: "Product"
 form: "https://docs.google.com/forms/d/1SNsL_pdzHyRmNfeCAGFVxzfMgEGWXWC5dtTwM5ZUGSM"
 ---
 
-### Objetivo
+### Responsabilidades
 Como Front-End engineer você será responsável pelo desenvolvimento de toda UI para os nossos
 usuários e também ferramentas internas. Somos uma aplicação SEO-heavy, com foco em mobile web.
 
@@ -15,7 +15,7 @@ um aplicativo nativo em React Native. Além das aplicações, você também ser�
 manter em conjunto com o time nosso [design system](https://ui.emcasa.com).
 
 
-### Responsabilidades
+### Requisitos
 
 * Desenvolver aplicações com JavaScript & React;
 * Conhecer CSS e ter domínio de como usar em aplicacões React (CSS modules, inline styles, etc);

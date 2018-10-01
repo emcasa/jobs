@@ -6,7 +6,7 @@ area: "Product"
 form: "https://docs.google.com/forms/d/1Y5DyMBbK61mO_5hNaSwVLe6eE5sM5HsKK_46ouEtTkU"
 ---
 
-### Objetivo
+### Responsabilidades
 Como Back-End engineer você será responsável pelo desenvolvimento das nossas APIs e serviços internos
 que atendem as aplicações dos nossos clientes e times internos. 
 
@@ -15,7 +15,7 @@ Além das aplicações, você também será responsável por manter em conjunto 
 desde a arquitetura até a manutenção.
 
 
-### Responsabilidades
+### Requisitos
 
 * Conhecimento em Elixir e/ou linguagens funcionais;
 * Conhecer PostgreSQL (ou similar);
