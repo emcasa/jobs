@@ -10,7 +10,7 @@ form: "https://docs.google.com/forms/d/1Y5DyMBbK61mO_5hNaSwVLe6eE5sM5HsKK_46ouEt
 Como Back-End engineer você será responsável pelo desenvolvimento das nossas APIs e serviços internos
 que atendem as aplicações dos nossos clientes e times internos.
 
-Nosso stack é composto por Elixir, Pheonix, Absinthe (GraphQL), PostgreSQL & ELK.
+Nosso stack é composto por Elixir, Phoenix, Absinthe (GraphQL), PostgreSQL & ELK.
 Além das aplicações, você também será responsável por manter em conjunto com o time nossa infra-estrutura,
 desde a arquitetura até a manutenção.
 
