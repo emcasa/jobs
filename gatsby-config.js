@@ -6,7 +6,6 @@ module.exports = {
     themeColor: THEME_COLOR
   },
   plugins: [
-    'gatsby-plugin-remove-serviceworker',
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
@@ -20,7 +19,6 @@ module.exports = {
         icon: 'src/images/emcasa-icon.png',
       },
     },
-    'gatsby-plugin-offline',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
