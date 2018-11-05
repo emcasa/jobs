@@ -1,12 +1,11 @@
 ---
-path: "/estagio-direito-imobiliario-rj"
-title: "Estágio em Direito Imobiliário"
+path: "/trainee-direito-imobiliario-rj"
+title: "Trainee em Direito Imobiliário"
 location: "Rio de Janeiro"
 area: "Legal"
 form: "https://docs.google.com/forms/d/1-cwLFfNp_R8EAomedSOy4Un-U5FK15LgID0V327_oTM/"
 ---
 
-### Objetivo
 Para nos ajudar nesta missão de transformar a experiência de comprar e vender um imóvel no Brasil, procuramos um Estagiário em Direito Imobiliário para integrar a nossa equipe de Legal no Rio de Janeiro, com conhecimento prévio em contratos, crédito imobiliário e certidões em geral, que tenha o perfil inovador e que busque novos desafios.
 
 ### Responsabilidades
@@ -17,7 +16,7 @@ Para nos ajudar nesta missão de transformar a experiência de comprar e vender 
 ### Requisitos
 * Boa comunicação escrita e verbal;
 * Excelente gestão de tarefas e tempo;
-* Está cursando Direito a partir do 6. Período;
+* Conclusão a partir de 2016;
 * Possuir perfil mão na massa, vontade de crescer e se desenvolver;
 
 ### Diferenciais
