@@ -14,7 +14,7 @@ form: "https://docs.google.com/forms/d/1BRVSMGku8XsqQknA1UJqToGpemTlZ4N8FK9GNrg-
 ### Requisitos
 * Boa comunicação (escrita e verbal) e relacionamento
 * Excelente gestão de tarefas e tempo
-* Disposição para se deslocar pela zona sul do Rio
+* Disposição para se deslocar por Perdizes em São Paulo
 * Conhecimentos em fotografia profissional
 
 ### Diferenciais
